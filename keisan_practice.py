@@ -3,7 +3,10 @@ import copy
 
 
 def trial_division(n):
-    """Return a list of the prime factors for a natural number."""
+    """Return a list of the prime factors for a natural number.
+        ex) n = 50
+            return [2, 5, 5]
+    """
     if n < 2:
         return []
     prime_factors = []
